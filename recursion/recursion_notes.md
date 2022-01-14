@@ -24,3 +24,23 @@
 | Space Efficiency | No | Yes | No stack memory for iteration |
 | Time efficient   | No | Yes | Recusion needs more time for pop and push elements to stack memory which makes recusion less time efficient |
 | Easy to code     | Yes | No | We use recursion especially in the cases we know a problem can be divided into similar sub problems |
+
+## When to use/avoid recursion
+### Use it
+- When you can breakdown a problem into similar subproblems
+- When we are fine with extra overhead (both time and space)
+- Need a quick solution instead of an efficient one
+- Small input into the function
+- When traversing a tree
+- When we use memoization in recursion
+### Avoid it
+- If time and space complexity matters for us
+- Recursion uses more memory. If we use embedded memory like a phone application.
+- Recursion can be slow
+
+## 3 Steps to write recursion
+- Factorials
+- 4! = 4*3*2*1
+- Recursive case - the flow
+- Base case - the stopping criterion
+- Unintentional case - the constraint
