@@ -1,5 +1,5 @@
 # Dictionairies
-A dictionary is a collection which is unordered, changeable and indexed.
+A dictionary is a collection which is unordered, changeable and indexed. \
 Comprised of key: value pairs
 
 ## Memory

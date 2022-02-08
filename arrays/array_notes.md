@@ -1,7 +1,8 @@
 # Arrays
 
 ## What is an Array?
-In computer science, an array is a data structure consisting of a collection of elements, each identified by at least one array index or key. An array is stored such that the position of each element can be computed from its index by a mathmatical formula.
+In computer science, an array is a data structure consisting of a collection of elements, each identified by at least one array index or key. \
+An array is stored such that the position of each element can be computed from its index by a mathmatical formula.
 
 ## Why do we need an Array?
 Storing collections of elements
