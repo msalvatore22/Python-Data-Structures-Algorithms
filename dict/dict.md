@@ -12,23 +12,23 @@ O(1) time complexity
 O(N)
 
 ## Deletion
-pop() -> remove element based on key
-popItem() -> remove a random key, value pair
-clear() -> clears the whole dictionary
-del -> delete key value pair
+* pop() -> remove element based on key
+* popItem() -> remove a random key, value pair
+* clear() -> clears the whole dictionary
+* del -> delete key value pair
 
 O(1) best case
 O(N) average case
 
 ## Other Medthods
 
-fromkeys(): dictionary.fromkeys([sequence], value)
-get(): dictionary.get(key, value)
-items(): dictionary.items() -> list of tuples (key, value)
-keys(): dictionary.keys() -> list of keys
-setdefault: dictionary.setdefault(key, default_value)
-values: dictionary.values() -> list of values
-update(): dictionary.uppdate(other_dictionaryORlist of tuples)
+* fromkeys(): dictionary.fromkeys([sequence], value)
+* get(): dictionary.get(key, value)
+* items(): dictionary.items() -> list of tuples (key, value)
+* keys(): dictionary.keys() -> list of keys
+* setdefault: dictionary.setdefault(key, default_value)
+* values: dictionary.values() -> list of values
+* update(): dictionary.uppdate(other_dictionaryORlist of tuples)
 
 ## Operators/Built Ins
 * in operator
@@ -48,6 +48,7 @@ update(): dictionary.uppdate(other_dictionaryORlist of tuples)
 * len()
 * sorted(iterable, reverse=boolean, key)
 
+## Dictionary vs List
 | Dictionary | List |
 | ---------- | ---- |
 | Unordered  | Ordered |
@@ -56,4 +57,13 @@ update(): dictionary.uppdate(other_dictionaryORlist of tuples)
 | Preferred when you have unique key values | Preferred when you have ordered data |
 | No duplicate keys | Allow duplicate elements |
 
+## Time Complexity
+| Operation | Time Complexity | Space Complexity |
+| --------- | --------------- | ---------------- |
+| Creation   | O(len(dict)) | O(N) |
+| Insertion  | O(1), O(N)   | O(1) |
+| Traversing | O(N))        | O(1) |
+| Accessing  | O(1)         | O(1) |
+| Searching  | O(N)         | O(1) |
+| Deletion   | O(1)         | O(1) |
 
