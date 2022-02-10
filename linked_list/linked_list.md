@@ -22,3 +22,12 @@ A form of sequential collection that does not have to be in order. Made up of in
 ## Linked List In Memory
 * Stored in memory non-contiguously
 
+| Operation | Time Complexity | Space Complexity |
+| --------- | --------------- | ---------------- |
+| Creation   | O(1) | O(1) |
+| Insertion  | O(N) | O(1) |
+| Traversing | O(N) | O(1) |
+| Accessing  | O(N) | O(1) |
+| Searching  | O(N) | O(1) |
+| Delete Node | O(N) | O(1) |
+| Deletion   | O(1) | O(1) |

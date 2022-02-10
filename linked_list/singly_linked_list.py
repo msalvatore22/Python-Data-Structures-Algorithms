@@ -105,6 +105,9 @@ class SinglyLinkedList:
             return False
 
         if index == 0:
+            if self.head == self.tail:
+                self.head = None
+                self.tail = None
             self.head = currNode.next
         else:
             while currIndex < index:
@@ -116,6 +119,20 @@ class SinglyLinkedList:
         
         self.length -= 1
         return currNode.value
+
+    def elementAt(self, index):
+        currNode = self.head
+        count = 0
+
+        while count < index:
+            count += 1
+            currNode = currNode.next
+        
+        return currNode.value
+    
+    
+            
+        
 
 
 
@@ -129,14 +146,14 @@ ll = SinglyLinkedList()
     
 ll.addAt(0, 0)
 ll.addAt(1, 0)
-ll.addAt(2,1)
-ll.addAt(3,2)
-ll.addAt(4,0)
-ll.addAt(6, 4)
+# ll.addAt(2,1)
+# ll.addAt(3,2)
+# ll.addAt(4,0)
+# ll.addAt(6, 4)
 
-ll.removeAt(3)
+ll.removeAt(1)
 
          
 print([node.value for node in ll])               
 # ll.traverse()
-print(ll.search(3))
+# print(ll.search(1))
